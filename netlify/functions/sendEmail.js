@@ -1,4 +1,4 @@
-/*const nodemailer = require("nodemailer");
+const nodemailer = require("nodemailer");
 
 exports.handler = async (event) => {
     try {
@@ -80,12 +80,12 @@ exports.handler = async (event) => {
             body: JSON.stringify({ error: error.message }),
         };
     }
-};*/
+};
 
 
 
 
-const nodemailer = require("nodemailer");
+/*const nodemailer = require("nodemailer");
 
 exports.handler = async (event) => {
     try {
@@ -193,6 +193,6 @@ exports.handler = async (event) => {
             body: JSON.stringify({ error: error.message }),
         };
     }
-};
+};*/
 
 
